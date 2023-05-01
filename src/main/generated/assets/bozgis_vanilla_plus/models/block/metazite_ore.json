@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "bozgis_vanilla_plus:block/metazite_ore"
+  }
+}

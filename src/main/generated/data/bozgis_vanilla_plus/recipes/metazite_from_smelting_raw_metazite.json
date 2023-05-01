@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 400,
+  "experience": 3.5,
+  "group": "metazite",
+  "ingredient": {
+    "item": "bozgis_vanilla_plus:raw_metazite"
+  },
+  "result": "bozgis_vanilla_plus:metazite"
+}

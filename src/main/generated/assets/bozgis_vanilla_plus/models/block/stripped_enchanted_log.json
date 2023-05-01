@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "bozgis_vanilla_plus:block/stripped_enchanted_log_top",
+    "side": "bozgis_vanilla_plus:block/stripped_enchanted_log"
+  }
+}

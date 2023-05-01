@@ -1,0 +1,44 @@
+{
+	"schemaVersion": 1,
+	"id": "bozgis_vanilla_plus",
+	"version": "${version}",
+	"name": "bozgi's Vanilla Plus",
+	"description": "This is an example description! Tell everyone what your mod is about!",
+	"authors": [
+		"Me!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/bozgis_vanilla_plus/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"bozgi.bozgis_vanilla_plus.BozgisVanillaPlus"
+		],
+		"client": [
+			"bozgi.bozgis_vanilla_plus.BozgisVanillaPlusClient"
+		],
+		"fabric-datagen": [
+			"bozgi.bozgis_vanilla_plus.BozgisVanillaPlusDataGenerator"
+		]
+	},
+	"mixins": [
+		"bozgis_vanilla_plus.mixins.json",
+		{
+			"config": "bozgis_vanilla_plus.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.14.19",
+		"minecraft": "~1.19.4",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

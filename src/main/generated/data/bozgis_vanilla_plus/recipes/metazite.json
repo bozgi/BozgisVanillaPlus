@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "bozgis_vanilla_plus:metazite_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "bozgis_vanilla_plus:metazite"
+  }
+}

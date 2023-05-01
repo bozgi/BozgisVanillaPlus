@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "group": "planks",
+  "ingredients": [
+    {
+      "tag": "bozgis_vanilla_plus:enchanted_log"
+    }
+  ],
+  "result": {
+    "count": 4,
+    "item": "bozgis_vanilla_plus:enchanted_planks"
+  }
+}

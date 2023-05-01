@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "bozgis_vanilla_plus:block/enchanted_tree_sapling"
+  }
+}
